@@ -490,5 +490,31 @@
     <string name="incall_vibrate_connect_title">Rung khi có kết nối</string>
     <string name="incall_vibrate_call_wait_title">Rung khi đợi cuộc gọi</string>
     <string name="incall_vibrate_disconnect_title">Rung kih ngắt kết nối</string>
+
+   <!-- Battery Bar -->
+    <string name="battery_bar_title">Thanh pin</string>
+    <string name="battery_bar_summary">Hiển thị và tùy chỉnh thanh pin gần thanh trạng thái hoặc thanh điều hướng</string>
+    <string name="battery_bar">Vị trí thanh pin</string>
+    <string name="battery_bar_no_navbar">Vị trí thanh pin</string>
+    <string name="battery_bar_location_hide">Ẩn</string>
+    <string name="battery_bar_location_statusbar">Thanh trạng thái</string>
+    <string name="battery_bar_location_top_navbar">Đầu thanh</string>
+    <string name="battery_bar_location_bottom_navbar">Dưới cùng của thanh điều hướng</string>
+    <string name="battery_bar_color">Màu thanh pin</string>
+    <string name="battery_bar_charging_color">Màu thanh khi sạc</string>
+    <string name="battery_bar_battery_low_color">Màu thanh pin khi pin yếu</string>
+    <string name="battery_bar_cat">Kiểu thanh pin</string>
+    <string name="battery_bar_style_title">Căn chỉnh thanh pin</string>
+    <string name="battery_bar_thickness_title">Độ dày thanh pin</string>
+    <string name="battery_bar_animate_title">Hiệu ứng đang sạc</string>
+    <string name="battery_bar_style_regular">Regular</string>
+    <string name="battery_bar_style_center_mirrored">Trung tâm nhân đôi</string>
+    <string name="battery_bar_style_reversed">Đảo ngược</string>
+    <string name="battery_bar_use_charging_color">Màu sạc tùy chỉnh</string>
+    <string name="battery_bar_blend_color_title">Pha trộn màu sắc</string>
+    <string name="battery_bar_blend_color_summary">Pha trộn đầy đủ / màu trống tương ứng với tỷ lệ phần trăm pin</string>
+    <string name="battery_bar_blend_color_reverse_title">Hướng màu ngược</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Tất cả &#8594; empty: đỏ &#8592; xanh &#8592; xanh dương &#8592; đỏ</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Tất cả &#8594; empty: đỏ &#8594; xanh &#8594; xanh dương &#8594; đỏ</string>
   
 </resources>
