@@ -629,4 +629,8 @@
     <string name="lockdate_font_size_title">Cỡ font ngày</string>
     <string name="lockclock_font_size_title">Cỡ font đồng hồ</string>
 
+    <!-- Lockscreen charging current indicator  -->
+    <string name="lockscreen_charging_current_title">Thông tin sạc màn hình khóa</string>
+    <string name="lockscreen_charging_current_summary">Hiển thị dòng điện và điện áp tối đa của bộ sạc bị phân tách trên màn hình khóa</string>
+
 </resources>
