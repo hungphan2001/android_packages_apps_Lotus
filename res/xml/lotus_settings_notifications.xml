@@ -97,6 +97,12 @@
             android:summary="@string/less_notification_sounds_summary"
             android:entries="@array/less_notification_sounds_entries"
             android:entryValues="@array/less_notification_sounds_values" />
+			
+		<Preference
+         android:key="battery_charging_light"
+		 android:icon="@drawable/ic_battery_almostfull"
+         android:fragment="com.lotus.settings.BatteryLightSettings"
+         android:title="@string/battery_light_settings" />
 
         <com.lotus.settings.preferences.SystemSettingSwitchPreference
             android:key="incall_notifications_vibrate"
