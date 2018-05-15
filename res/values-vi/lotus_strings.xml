@@ -52,6 +52,7 @@
     <string name="accent_color">Màu nhấn</string>
     <string name="battery_category">Pin</string>
     <string name="notifications_category_title">Bảo vệ thông báo gây phiền nhiễu</string>
+	<string name="qs_panel_color_title">Màu sắc</string>
     <!-- Battery percentage -->
     <string name="battery_style_category_title">Kiểu biểu tượng pin</string>
     <string name="battery_style_category_summary">Thay đổi kiểu biểu tượng pin trên thanh trạng thái</string>
