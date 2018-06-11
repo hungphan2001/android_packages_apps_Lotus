@@ -604,5 +604,9 @@
     <string name="power_menu_animation_translucent_top">Mờ (trên)</string>
     <string name="power_menu_animation_translucent_bottom">Mờ (dưới)</string>
     <string name="power_menu_animation_rotate">Xoay</string>
+	
+	<!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Buộc thông báo mở rộng</string>
+    <string name="force_expanded_notifications_summary">Buộc các ứng dụng hỗ trợ thông báo mở rộng</string>
 
 </resources>
