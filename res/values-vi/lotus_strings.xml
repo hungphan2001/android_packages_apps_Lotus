@@ -555,5 +555,6 @@
     <string name="title_animation_no_override">Ngăn chặn ghi đè ứng dụng</string>
     <string name="summary_animation_no_override">Ngăn ứng dụng ghi đè chuyển đổi</string>
     <string name="animation_duration_default">Mặc định</string>
+    <string name="task_open_behind_title">TNhiệm vụ sau mở hoạt hình</string>
 
 </resources>
