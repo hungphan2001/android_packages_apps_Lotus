@@ -55,6 +55,8 @@
 	<string name="qs_panel_color_title">Màu sắc</string>
 	<string name="qs_bg_wall_title">Sử dụng màu nền</string>
     <string name="qs_bg_wall_summary">Đặt màu nền QS từ Hình nền</string>
+	<string name="qs_bg_use_fw">Sử dụng màu mặt định</string>
+    <string name="qs_bg_use_fw_summary">Tắt các kiểu cài đặt nhanh tùy chỉnh cho các công cụ chủ đề bên ngoài</string>
     <!-- Battery percentage -->
     <string name="battery_style_category_title">Kiểu biểu tượng pin</string>
     <string name="battery_style_category_summary">Thay đổi kiểu biểu tượng pin trên thanh trạng thái</string>
