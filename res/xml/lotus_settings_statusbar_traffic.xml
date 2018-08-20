@@ -43,7 +43,7 @@
         settings:unitsRight=""
         android:defaultValue="0" />
 
-    <com.evolution.settings.preferences.SystemSettingListPreference
+    <com.lotus.settings.preferences.SystemSettingListPreference
         android:key="network_traffic_view_location"
         android:title="@string/network_traffic_location_title"
         android:summary="@string/network_traffic_location_summary"
