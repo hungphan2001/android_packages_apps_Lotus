@@ -804,5 +804,8 @@
     <string name="battery_light_full_color">Gần đầy pin</string>
     <string name="battery_light_reallyfull_color">Pin đầy (100%)</string>
 	<string name="light_category">Tùy chỉnh Led</string>
-	
+
+     <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Khởi chạy ứng dụng âm nhạc</string>
+    <string name="headset_connect_player_summary">Khởi chạy ứng dụng nhạc mặc định khi tai nghe được kết nối</string>
 </resources>

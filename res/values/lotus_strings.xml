@@ -938,5 +938,4 @@
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
 	<string name="light_category">Led Customization</string>
-
 </resources>
