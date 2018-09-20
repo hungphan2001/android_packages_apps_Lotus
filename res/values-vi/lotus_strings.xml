@@ -158,6 +158,12 @@
     <string name="clock_date_right">Bên phải thời gian</string>
     <string name="clock_date_left">Bên trái thời gian</string>
     <string name="clock_date_position">Vị trí ngày</string>
+    <string name="date_cat">Ngày</string>
+    <string name="clock_cat">Giờ</string>
+    <string name="status_bar_clock_font_style_title">Kiểu font</string>
+    <string name="status_bar_clock_font_style_summary">%1$s</string>
+    <string name="status_bar_clock_font_size_title">Cỡ font</string>
+
     <!-- Lockscreen cover art -->
     <string name="media_art_title">Ảnh bìa phương tiện</string>
     <string name="media_art_summary">Bật đa phương tiện trên màn hình khóa</string>
