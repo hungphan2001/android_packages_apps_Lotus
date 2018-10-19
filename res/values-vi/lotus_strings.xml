@@ -608,5 +608,9 @@
 	<!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Buộc thông báo mở rộng</string>
     <string name="force_expanded_notifications_summary">Buộc các ứng dụng hỗ trợ thông báo mở rộng</string>
+	
+	<!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Chế độ một tay</string>
+    <string name="one_hand_mode_summary">Cho phép vuốt qua phải hoặc trái trên thanh điều hướng để bật</string>
 
 </resources>
