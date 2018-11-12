@@ -622,4 +622,8 @@
     <string name="one_hand_mode_title">Chế độ một tay</string>
     <string name="one_hand_mode_summary">Cho phép vuốt qua phải hoặc trái trên thanh điều hướng để bật</string>
 
+    <!-- Lock Clock & Date Size -->
+    <string name="lockdate_font_size_title">Cỡ font ngày</string>
+    <string name="lockclock_font_size_title">Cỡ font đồng hồ</string>
+
 </resources>
