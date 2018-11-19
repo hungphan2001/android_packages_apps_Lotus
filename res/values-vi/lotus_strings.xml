@@ -589,4 +589,20 @@
     <string name="pref_scrollingcache_default_disable">Tắt mặt định</string>
     <string name="pref_scrollingcache_force_disable">Buộc tắt</string>
 
+   <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Hoạt ảnh menu nguồn</string>
+    <string name="power_menu_animation_summary">Thay đổi hoạt ảnh vào/thoát của trình đơn nguồn</string>
+    <string name="power_menu_animation_dialog_title">Chọn hoạt ảnh menu nguồn</string>
+    <string name="power_menu_animation_aosp">Mặc định</string>
+    <string name="power_menu_animation_bottom">Bên dưới</string>
+    <string name="power_menu_animation_top">Trên cùng</string>
+    <string name="power_menu_animation_xylon">Bay</string>
+    <string name="power_menu_animation_slide">Trượt</string>
+    <string name="power_menu_animation_turn">Quay</string>
+    <string name="power_menu_animation_fly">Phát sáng</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Mờ (trên)</string>
+    <string name="power_menu_animation_translucent_bottom">Mờ (dưới)</string>
+    <string name="power_menu_animation_rotate">Xoay</string>
+
 </resources>
