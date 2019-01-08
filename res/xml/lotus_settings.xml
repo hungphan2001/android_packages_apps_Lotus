@@ -70,6 +70,13 @@
             android:fragment="com.lotus.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
+        <!-- Animations -->
+        <Preference
+            android:key="animations_category"
+            android:title="@string/animations_title"
+            android:fragment="com.lotus.settings.fragments.Animations"
+            android:icon="@drawable/ic_settings_animations"/>
+
         <!-- Misc -->
         <Preference
             android:key="misc_category"

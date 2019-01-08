@@ -23,6 +23,7 @@
     <string name="gestures_title">Cử chỉ</string>
     <string name="interfaces_title">Giao diện</string>
     <string name="lockscreen_title">Màn hình khoá</string>
+    <string name="animations_title">Hiệu ứng</string>
     <string name="misc_title">Linh tinh</string>
     <string name="navbar_title">Thanh điều hướng</string>
     <string name="powermenu_title">Menu nguồn</string>
@@ -516,5 +517,26 @@
     <string name="battery_bar_blend_color_reverse_title">Hướng màu ngược</string>
     <string name="battery_bar_blend_color_reverse_summary_off">Tất cả &#8594; empty: đỏ &#8592; xanh &#8592; xanh dương &#8592; đỏ</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Tất cả &#8594; empty: đỏ &#8594; xanh &#8594; xanh dương &#8594; đỏ</string>
-  
+
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Hiệu ứng Toast</string>
+    <string name="toast_none_animation">Không</string>
+    <string name="toast_default_animation">Mặc định</string>
+    <string name="toast_fade_animation">Phai màu</string>
+    <string name="toast_SlideRight_animation">Trượt sang phải</string>
+    <string name="toast_SlideLeft_animation">Trượt sang trái</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Phai mờ dần</string>
+    <string name="toast_GrowFade_animation">Phát triển mờ dần</string>
+    <string name="toast_GrowFadeCenter_animation">Trung tâm phát triển mờ dần</string>
+    <string name="toast_GrowFadeBottom_animation">Tăng dần đáy</string>
+    <string name="toast_Translucent_animation">Trong suốt</string>
+    <string name="toast_SlideLeftRight_animation">Trượt trái sang phải</string>
+    <string name="toast_SlideRightLeft_animation">Trượt phải sang trái</string>
+    <string name="toast_animation_test">Đây là thử nghiệm cho hiệu ứng Toast được chọn</string>
+    <string name="toast">Toast</string>
+
 </resources>
