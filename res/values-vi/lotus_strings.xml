@@ -356,6 +356,8 @@
     <string name="lockscreen_clock_selection_digital">Mặc định</string>
     <string name="lockscreen_clock_selection_digital_bold">Đồng hồ số (in đậm)</string>
     <string name="lockscreen_clock_selection_analog">Đồng hồ kim</string>
+    <string name="lockscreen_clock_selection_spectrum">Đồng hồ kim (Quang phổ)</string>
+    <string name="lockscreen_clock_selection_sneeky">Đồng hồ kim (Sneeky)</string>
     <string name="lockscreen_clock_selection_sammy">Xếp dọc</string>
     <string name="lockscreen_clock_selection_sammy_bold">Xếp dọc (đậm)</string>
     <string name="lockscreen_clock_selection_sammy_accent">Xếp dọc với màu nhấn</string>
