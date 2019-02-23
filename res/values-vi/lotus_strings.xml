@@ -457,5 +457,32 @@
     <string name="power_menu_bg_title">Bộ lọc nền</string>
     <string name="power_menu_bg_summary">Bật bộ lọc tùy chỉnh khi powermenu hoạt động</string>
     <string name="power_menu_bg_style_title">Tuýt lọc</string>
+
+    <!-- Custom headers -->
+    <string name="custom_headers_title">Tiêu đề tùy chỉnh</string>
+    <string name="custom_headers_summary">Chọn một hình ảnh sẽ được hiển thị ở trên cùng của bảng thông báo</string>
+    <string name="status_bar_custom_header_title">Bật</string>
+    <string name="daylight_header_pack_title">Bộ sưu tập hình ảnh tiêu đề</string>
+    <string name="status_bar_custom_header_shadow_title">Bóng hình ảnh tiêu đề</string>
+    <string name="status_bar_custom_header_shadow_summary">Để nhìn rõ hơn trên hình ảnh sáng</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider" translatable="false">static</string>
+    <string name="daylight_header_provider" translatable="false">daylight</string>
+    <string name="static_header_provider_title">Hình ảnh tĩnh</string>
+    <string name="daylight_header_provider_title">Bộ sưu tập hình ảnh</string>
+    <string name="custom_header_provider_title">Nhà cung cấp tiêu đề</string>
+    <string name="custom_header_browse_title">Duyệt các tiêu đề đã cài đặt</string>
+    <string name="custom_header_browse_summary">Nhấp vào bất kỳ hình ảnh để sử dụng cho chế độ tĩnh</string>
+    <string name="custom_header_browse_summary_new">Duyệt tất cả các bộ sưu tập tiêu đề có sẵn</string>
+    <string name="custom_header_pick_title">Chọn hình ảnh tiêu đề</string>
+    <string name="custom_header_pick_summary">Chọn một hình ảnh để sử dụng cho chế độ tĩnh</string>
+    <string name="style_enabled_summary">Hình ảnh tiêu đề tùy chỉnh được BẬT</string>
+    <string name="style_disabled_summary">Hình ảnh tiêu đề tùy chỉnh là TẮT</string>
+    <string name="header_provider_disabled">Tắt</string>
+    <string name="custom_header_title">Hình ảnh tiêu đề tùy chỉnh</string>
+    <string name="file_header_select_title">Chọn ảnh</string>
+    <string name="file_header_select_summary">Chọn hình ảnh tùy chỉnh</string>
+    <string name="file_header_provider_title">Hình ảnh tùy chỉnh</string>
+    <string name="file_header_provider" translatable="false">file</string>
   
 </resources>
