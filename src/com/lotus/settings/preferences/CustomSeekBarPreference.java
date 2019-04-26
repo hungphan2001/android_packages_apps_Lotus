@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.evolution.settings.preferences;
+package com.lotus.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -81,7 +81,7 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         mSeekBar = new SeekBar(context, attrs);
         mSeekBar.setMax(mMax - mMin);
         mSeekBar.setOnSeekBarChangeListener(this);
-        setLayoutResource(R.layout.preference_evolution_seekbar);
+        setLayoutResource(R.layout.preference_lotus_seekbar);
     }
 
     public CustomSeekBarPreference(Context context, AttributeSet attrs, int defStyleAttr) {
