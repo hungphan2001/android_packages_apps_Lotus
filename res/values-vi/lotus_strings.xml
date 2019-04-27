@@ -484,5 +484,11 @@
     <string name="file_header_select_summary">Chọn hình ảnh tùy chỉnh</string>
     <string name="file_header_provider_title">Hình ảnh tùy chỉnh</string>
     <string name="file_header_provider" translatable="false">file</string>
+
+   <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Tùy chọn rung trong cuộc gọi</string>
+    <string name="incall_vibrate_connect_title">Rung khi có kết nối</string>
+    <string name="incall_vibrate_call_wait_title">Rung khi đợi cuộc gọi</string>
+    <string name="incall_vibrate_disconnect_title">Rung kih ngắt kết nối</string>
   
 </resources>
