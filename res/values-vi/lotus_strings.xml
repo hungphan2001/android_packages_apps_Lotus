@@ -747,4 +747,28 @@
     <string name="mt_reset">Thiết lập lại</string>
     <string name="time_in_state_title">Thời gian</string>
     <string name="time_in_state_summary">Hiển thị thống kê tần số CPU</string>
+	
+	 <!-- Gaming mode -->
+    <string name="gaming_mode_title">Chế độ chơi game</string>
+    <string name="gaming_mode_summary">Tùy chỉnh tùy chọn chế độ chơi trò chơi</string>
+    <string name="gaming_mode_app_picker_title">Tự động bật cho các ứng dụng này</string>
+    <string name="add_gaming_mode_package_title">Thêm ứng dụng cho Chế độ chơi trò chơi</string>
+    <string name="add_gaming_mode_package_summary">Chế độ chơi trò chơi sẽ tự động được bật cho các ứng dụng đã chọn</string>
+    <string name="gaming_mode_speaker_title">Trả lời cuộc gọi qua loa</string>
+    <string name="gaming_mode_speaker_summary">Định tuyến các cuộc gọi đến loa khi chế độ Chơi trò chơi được bật</string>
+    <string name="gaming_mode_headsup_title">Chặn thông báo</string>
+    <string name="gaming_mode_headsup_summary">Chặn tất cả các tin nhắn headup ngoại trừ các cuộc gọi</string>
+    <string name="gaming_mode_hardware_keys_title">Nút khóa</string>
+    <string name="gaming_mode_hardware_keys_summary">Tắt các nút phần cứng khi chế độ Chơi trò chơi được bật</string>
+    <string name="gaming_mode_brightness_title">Tắt độ sáng tự động</string>
+    <string name="gaming_mode_brightness_summary">Khóa độ sáng màn hình khi bật chế độ Chơi trò chơi</string>
+    <string name="gaming_mode_dnd_title">Chế độ rung</string>
+    <string name="gaming_mode_dnd_summary">Nhập điện thoại ở chế độ rung khi bật Chế độ chơi trò chơi</string>
+    <string name="gaming_mode_max_media_title">Âm lượng phương tiện</string>
+    <string name="gaming_mode_max_media_summary">Tối đa hóa âm lượng phương tiện khi chế độ Chơi trò chơi được bật</string>
+    <string name="gaming_mode_dynamic_title">Chế độ động</string>
+    <string name="gaming_mode_dynamic_summary">Tự động kích hoạt chế độ Chơi trò chơi</string>
+    <string name="dynamic_mode_footer">Bất cứ khi nào bạn mở bất kỳ ứng dụng nào và hệ thống thấy đó là một trò chơi, chế độ Chơi trò chơi sẽ tự động được bật. Sau khi bạn xóa ứng dụng khỏi khoảng cách, tất cả các cài đặt người dùng sẽ được khôi phục. Xin lưu ý rằng điều này không hoạt động cho mọi ứng dụng trò chơi.</string>
+    <string name="dynamic_mode_footer_dialer">Một số tính năng cụ thể của trình quay số như \ "Trả lời cuộc gọi qua loa \" sẽ chỉ hoạt động với ứng dụng Trình quay số AOSP."</string>
+
 </resources>

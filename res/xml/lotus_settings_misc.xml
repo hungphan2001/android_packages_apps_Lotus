@@ -25,6 +25,13 @@
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
 
+   <Preference
+        android:key="gaming_mode"
+        android:title="@string/gaming_mode_title"
+        android:icon="@drawable/ic_gaming"
+        android:summary="@string/gaming_mode_summary"
+        android:fragment="com.lotus.settings.fragments.GamingMode" />
+
     <PreferenceCategory
         android:title="@string/dashboard_category">
 
