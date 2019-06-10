@@ -45,6 +45,11 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import com.lotus.settings.preferences.PackageListAdapter.PackageItem;
 import com.lotus.settings.preferences.PackageListAdapter;
 import java.util.ArrayList;
