@@ -369,4 +369,8 @@
     <string name="lockscreen_cover_filter_blur">Blur</string>
     <string name="lockscreen_cover_filter_grayblur">Grayscale and blurred</string>
 
+    <!--logo -->
+    <string name="lotus_logo_title">Logo</string>
+    <string name="lotus_logo_summary">Let everyone know that you\'re using LotusOS when they see your screen</string>
+    <string name="status_bar_logo_style_title">Custom logo style</string>
 </resources>
