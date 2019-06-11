@@ -456,6 +456,11 @@
     <string name="qstile_gear">Bánh răng</string>
     <string name="qstile_badge">Huy hiệu</string>
     <string name="qstile_badgetwo">Huy hiệu 2</string>
+	<string name="qstile_neonlike">Neon like</string>
+    <string name="qstile_oos">Oxygen</string>
+    <string name="qstile_triangles">Triangles</string>
+    <string name="qstile_divided">Divided</string>
+    <string name="qstile_cosmos">Cosmos</string>
 
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Tùy chọn phông chữ đồng hồ</string>
