@@ -367,6 +367,7 @@
     <string name="lockscreen_cover_filter_tint">Đồng bộ màu</string>
     <string name="lockscreen_cover_filter_blur">Độ mờ</string>
     <string name="lockscreen_cover_filter_grayblur">Trắng đen và làm mờ</string>
+    <string name="lockscreen_cover_filter_tinted_blur">Nhuộm màu dấu và mờ</string>
 
     <!--logo -->
     <string name="lotus_logo_title">Logo</string>
@@ -558,5 +559,10 @@
     <string name="content_padding">Góc đệm nội dung</string>
     <string name="corner_fwvals">Sử dụng các giá trị khung</string>
     <string name="corner_fwvals_summary">Hữu ích nếu thiết bị thực sự có các góc tròn</string>
+
+    <!-- Powermunu Background -->
+    <string name="power_menu_bg_title">Bộ lọc nền</string>
+    <string name="power_menu_bg_summary">Bật bộ lọc tùy chỉnh khi powermenu hoạt động</string>
+    <string name="power_menu_bg_style_title">Tuýt lọc</string>
 
 </resources>
