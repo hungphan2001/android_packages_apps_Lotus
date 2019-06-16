@@ -68,7 +68,7 @@
     <string name="status_bar_battery_style_big_circle">Vòng tròn lớn</string>
     <string name="status_bar_battery_style_big_dotted_circle">Vòng tròn chấm lớn</string>
     <string name="status_bar_battery_style_text">Văn bản</string>
-    <string name="status_bar_battery_style_hidden">Ẩn</string>>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
 
     <!-- Power Menu -->
     <string name="powermenu_category_title">Menu nguồn bật tắt</string>
@@ -163,7 +163,6 @@
     <string name="clock_date_display_none">Ẩn</string>
     <string name="clock_date_display_small">Nhỏ</string>
     <string name="clock_date_display_normal">Bình thường</string>
-    <string name="clock_date_style">Kiểu ngày</string>
     <string name="clock_date_style_normal">Bình thường</string>
     <string name="clock_date_style_lowercase">Chữ thường</string>
     <string name="clock_date_style_uppercase">Chữ hoa</string>
