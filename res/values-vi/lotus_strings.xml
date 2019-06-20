@@ -756,8 +756,6 @@
     <string name="gaming_mode_app_picker_title">Tự động bật cho các ứng dụng này</string>
     <string name="add_gaming_mode_package_title">Thêm ứng dụng cho Chế độ chơi trò chơi</string>
     <string name="add_gaming_mode_package_summary">Chế độ chơi trò chơi sẽ tự động được bật cho các ứng dụng đã chọn</string>
-    <string name="gaming_mode_speaker_title">Trả lời cuộc gọi qua loa</string>
-    <string name="gaming_mode_speaker_summary">Định tuyến các cuộc gọi đến loa khi chế độ Chơi trò chơi được bật</string>
     <string name="gaming_mode_headsup_title">Chặn thông báo</string>
     <string name="gaming_mode_headsup_summary">Chặn tất cả các tin nhắn headup ngoại trừ các cuộc gọi</string>
     <string name="gaming_mode_hardware_keys_title">Nút khóa</string>
@@ -776,6 +774,5 @@
     <string name="gaming_mode_notifications_all_title">Hiển thị toasts và thông báo</string>
     <string name="gaming_mode_dynamic_title">Chế độ động</string>
     <string name="gaming_mode_dynamic_summary">Bất cứ khi nào bạn mở bất kỳ ứng dụng nào và hệ thống thấy đó là một trò chơi, nó sẽ tự động được thêm vào danh sách trò chơi. Xin lưu ý rằng điều này không hoạt động cho mọi ứng dụng trò chơi.</string>
-    <string name="dynamic_mode_footer_dialer">Một số tính năng cụ thể của trình quay số như \ "Trả lời cuộc gọi qua loa \" sẽ chỉ hoạt động với ứng dụng Trình quay số AOSP."</string>
 
 </resources>
