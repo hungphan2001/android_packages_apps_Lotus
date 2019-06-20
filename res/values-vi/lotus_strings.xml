@@ -767,11 +767,13 @@
     <string name="gaming_mode_ringer_vibrate_title">Rung</string>
     <string name="gaming_mode_ringer_dnd_title">Không làm phiền</string>
     <string name="gaming_mode_ringer_silent_title">Im lặng</string>
-    <string name="gaming_mode_max_media_title">Âm lượng phương tiện</string>
-    <string name="gaming_mode_max_media_summary">Tối đa hóa âm lượng phương tiện khi chế độ Chơi trò chơi được bật</string>
+    <string name="gaming_mode_notifications_title">Thông báo</string>
+    <string name="gaming_mode_notifications_off_title">Tắt</string>
+    <string name="gaming_mode_notifications_notif_title">Hiện thị thông báo</string>
+    <string name="gaming_mode_notifications_toast_title">Hiển thị toasts</string>
+    <string name="gaming_mode_notifications_all_title">Hiển thị toasts và thông báo</string>
     <string name="gaming_mode_dynamic_title">Chế độ động</string>
-    <string name="gaming_mode_dynamic_summary">Tự động kích hoạt chế độ Chơi trò chơi</string>
-    <string name="dynamic_mode_footer">Bất cứ khi nào bạn mở bất kỳ ứng dụng nào và hệ thống thấy đó là một trò chơi, chế độ Chơi trò chơi sẽ tự động được bật. Sau khi bạn xóa ứng dụng khỏi khoảng cách, tất cả các cài đặt người dùng sẽ được khôi phục. Xin lưu ý rằng điều này không hoạt động cho mọi ứng dụng trò chơi.</string>
+    <string name="gaming_mode_dynamic_summary">Bất cứ khi nào bạn mở bất kỳ ứng dụng nào và hệ thống thấy đó là một trò chơi, nó sẽ tự động được thêm vào danh sách trò chơi. Xin lưu ý rằng điều này không hoạt động cho mọi ứng dụng trò chơi.</string>
     <string name="dynamic_mode_footer_dialer">Một số tính năng cụ thể của trình quay số như \ "Trả lời cuộc gọi qua loa \" sẽ chỉ hoạt động với ứng dụng Trình quay số AOSP."</string>
 
 </resources>
