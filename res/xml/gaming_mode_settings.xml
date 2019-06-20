@@ -12,11 +12,18 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/gaming_mode_title">
+	
+	<com.lotus.settings.preferences.SystemSettingSwitchPreference
+        android:key="gaming_mode_master_switch"
+        android:title="@string/gaming_mode_master_title"
+        android:summary="@string/gaming_mode_master_summary"
+        android:defaultValue="true" />
 
     <!-- Loudspeaker for calls -->
     <com.lotus.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_speaker_in_call_toggle"
         android:title="@string/gaming_mode_speaker_title"
+		android:dependency="gaming_mode_master_switch"
         android:summary="@string/gaming_mode_speaker_summary"
         android:defaultValue="false" />
 
@@ -24,6 +31,7 @@
     <com.lotus.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_headsup_toggle"
         android:title="@string/gaming_mode_headsup_title"
+		android:dependency="gaming_mode_master_switch"
         android:summary="@string/gaming_mode_headsup_summary"
         android:defaultValue="true" />
 
@@ -32,18 +40,21 @@
         android:key="gaming_mode_hw_keys_toggle"
         android:title="@string/gaming_mode_hardware_keys_title"
         android:summary="@string/gaming_mode_hardware_keys_summary"
+		android:dependency="gaming_mode_master_switch"
         android:defaultValue="true" />
 
     <!-- Manual brightness -->
     <com.lotus.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_manual_brightness_toggle"
         android:title="@string/gaming_mode_brightness_title"
+		android:dependency="gaming_mode_master_switch"
         android:summary="@string/gaming_mode_brightness_summary"
         android:defaultValue="true" />
 
     <com.lotus.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_ringer_mode"
         android:title="@string/gaming_mode_ringer_title"
+		android:dependency="gaming_mode_master_switch"
         android:entries="@array/gaming_mode_ringer_entries"
         android:entryValues="@array/gaming_mode_ringer_values"
         android:defaultValue="0"
@@ -51,6 +62,7 @@
 
     <com.lotus.settings.preferences.SystemSettingListPreference
         android:key="gaming_mode_notifications"
+		android:dependency="gaming_mode_master_switch"
         android:title="@string/gaming_mode_notifications_title"
         android:entries="@array/gaming_mode_notifications_entries"
         android:entryValues="@array/gaming_mode_notifications_values"
@@ -61,6 +73,7 @@
     <com.lotus.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_dynamic_state"
         android:title="@string/gaming_mode_dynamic_title"
+		android:dependency="gaming_mode_master_switch"
         android:summary="@string/gaming_mode_dynamic_summary"
         android:defaultValue="false" />
 
@@ -72,7 +85,8 @@
             android:key="add_gamingmode_packages"
             android:icon="@drawable/ic_menu_add"
             android:title="@string/add_gaming_mode_package_title"
-            android:summary="@string/add_gaming_mode_package_summary" />
+            android:summary="@string/add_gaming_mode_package_summary"
+			android:dependency="gaming_mode_master_switch"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

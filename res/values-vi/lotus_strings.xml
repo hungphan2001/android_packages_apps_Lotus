@@ -751,6 +751,8 @@
 	 <!-- Gaming mode -->
     <string name="gaming_mode_title">Chế độ chơi game</string>
     <string name="gaming_mode_summary">Tùy chỉnh tùy chọn chế độ chơi trò chơi</string>
+	<string name="gaming_mode_master_title">Bật chức năng chế độ chơi gmae</string>
+    <string name="gaming_mode_master_summary">Cho phép tùy chỉnh các tùy chọn Chế độ chơi trò chơi</string>
     <string name="gaming_mode_app_picker_title">Tự động bật cho các ứng dụng này</string>
     <string name="add_gaming_mode_package_title">Thêm ứng dụng cho Chế độ chơi trò chơi</string>
     <string name="add_gaming_mode_package_summary">Chế độ chơi trò chơi sẽ tự động được bật cho các ứng dụng đã chọn</string>
