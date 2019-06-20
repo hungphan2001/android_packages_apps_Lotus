@@ -762,8 +762,11 @@
     <string name="gaming_mode_hardware_keys_summary">Tắt các nút phần cứng khi chế độ Chơi trò chơi được bật</string>
     <string name="gaming_mode_brightness_title">Tắt độ sáng tự động</string>
     <string name="gaming_mode_brightness_summary">Khóa độ sáng màn hình khi bật chế độ Chơi trò chơi</string>
-    <string name="gaming_mode_dnd_title">Chế độ rung</string>
-    <string name="gaming_mode_dnd_summary">Nhập điện thoại ở chế độ rung khi bật Chế độ chơi trò chơi</string>
+    <string name="gaming_mode_ringer_title">Người rung chuông trong chế độ chơi trò chơi</string>
+    <string name="gaming_mode_ringer_off_title">Không thay đổi</string>
+    <string name="gaming_mode_ringer_vibrate_title">Rung</string>
+    <string name="gaming_mode_ringer_dnd_title">Không làm phiền</string>
+    <string name="gaming_mode_ringer_silent_title">Im lặng</string>
     <string name="gaming_mode_max_media_title">Âm lượng phương tiện</string>
     <string name="gaming_mode_max_media_summary">Tối đa hóa âm lượng phương tiện khi chế độ Chơi trò chơi được bật</string>
     <string name="gaming_mode_dynamic_title">Chế độ động</string>
