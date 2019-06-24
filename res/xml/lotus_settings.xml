@@ -53,8 +53,8 @@
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title" 
-            android:fragment="com.lotus.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gesture"/>
+            android:fragment="com.lotus.settings.fragments.CustomGestureSettings"
+            android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Lock Screen -->
         <Preference
