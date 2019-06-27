@@ -790,5 +790,8 @@
     <string name="hardware_keys_double_tap_title">Nhấn nút hành động</string>
     <string name="hardware_keys_category">Thanh điều hướng</string>
     <string name="hardware_keys_disable_title">Vô hiệu hóa các nút điều hướng</string>
+	
+	<!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lối tắt màn hình khóa</string>
 
 </resources>
