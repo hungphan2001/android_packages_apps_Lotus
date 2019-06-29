@@ -26,7 +26,7 @@
             android:title="@string/accent_color"
             android:defaultValue="0xffffff"
             android:persistent="false" />
-			
+
 	<com.lotus.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_panel_bg_use_fw"
             android:title="@string/qs_bg_use_fw"
@@ -86,7 +86,7 @@
 
         <com.lotus.settings.preferences.SecureSettingSwitchPreference
             android:key="sysui_rounded_fwvals"
-            android:icon="@drawable/ic_rouned"
+            android:icon="@drawable/ic_rounded"
             android:title="@string/corner_fwvals"
             android:summary="@string/corner_fwvals_summary"
             android:defaultValue="true"
