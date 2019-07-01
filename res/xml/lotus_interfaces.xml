@@ -14,18 +14,10 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/interfaces_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
-
-<PreferenceCategory
+		
+	<PreferenceCategory
         android:key="system_colors"
         android:title="@string/system_colors" >
-
-        <net.margaritov.preference.colorpicker.ColorPickerPreference
-            android:icon="@drawable/ic_paint"
-            android:key="accent_color"
-            android:title="@string/accent_color"
-            android:defaultValue="0xffffff"
-            android:persistent="false" />
 
 	<com.lotus.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_panel_bg_use_fw"

@@ -56,8 +56,6 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
-import com.android.settings.wrapper.OverlayManagerWrapper;
-import com.android.settings.wrapper.OverlayManagerWrapper.OverlayInfo;
 import com.android.settings.SettingsPreferenceFragment;
 import com.lotus.settings.preferences.CustomSeekBarPreference;
 import com.lotus.settings.preferences.SecureSettingSwitchPreference;
@@ -74,18 +72,12 @@ public class Interfaces extends SettingsPreferenceFragment implements
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
-    private static final String ACCENT_COLOR = "accent_color";
     private static final String QS_PANEL_COLOR = "qs_panel_color";
-    private static final String ACCENT_COLOR_PROP = "persist.sys.theme.accentcolor";
     private static final String QS_PANEL_BG_ALPHA = "qs_panel_bg_alpha";
 
     private Handler mHandler;
 
-    private ColorPickerPreference mThemeColor;
     private ColorPickerPreference mQsPanelColor;
-    private Fragment mCurrentFragment = this;
-    private OverlayManagerWrapper mOverlayService;
-    private PackageManager mPackageManager;
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private SecureSettingSwitchPreference mRoundedFwvals;
@@ -97,13 +89,7 @@ public class Interfaces extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.lotus_interfaces);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        mOverlayService = ServiceManager.getService(Context.OVERLAY_SERVICE) != null ? new OverlayManagerWrapper()
-                : null;
-        mPackageManager = getActivity().getPackageManager();
-	mHandler = new Handler();
-        ContentResolver resolver = getActivity().getContentResolver();
-
-        setupAccentPref();
+		ContentResolver resolver = getActivity().getContentResolver();
 
 		Resources res = null;
         Context ctx = getContext();
@@ -151,16 +137,6 @@ public class Interfaces extends SettingsPreferenceFragment implements
 
     }
 
-    private void setupAccentPref() {
-        mThemeColor = (ColorPickerPreference) findPreference(ACCENT_COLOR);
-        String colorVal = SystemProperties.get(ACCENT_COLOR_PROP, "-1");
-        int color = "-1".equals(colorVal)
-                ? Color.WHITE
-                : Color.parseColor("#" + colorVal);
-        mThemeColor.setNewPreviewColor(color);
-        mThemeColor.setOnPreferenceChangeListener(this);
-    }
-
     private void restoreCorners() {
         Resources res = null;
         float density = Resources.getSystem().getDisplayMetrics().density;
@@ -203,14 +179,6 @@ public class Interfaces extends SettingsPreferenceFragment implements
                     Settings.System.QS_PANEL_BG_ALPHA, bgAlpha,
                     UserHandle.USER_CURRENT);
             return true;
-        } else if (preference == mThemeColor) {
-            int color = (Integer) newValue;
-            String hexColor = String.format("%08X", (0xFFFFFFFF & color));
-            SystemProperties.set(ACCENT_COLOR_PROP, hexColor);
-            mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
-            mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
-            mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
-         return true;
         }
         return false;
     }
@@ -228,18 +196,6 @@ public class Interfaces extends SettingsPreferenceFragment implements
     @Override
     public void onPause() {
         super.onPause();
-    }
-
-    private boolean isTheme(OverlayInfo oi) {
-        if (!OverlayInfo.CATEGORY_THEME.equals(oi.category)) {
-            return false;
-        }
-        try {
-            PackageInfo pi = mPackageManager.getPackageInfo(oi.packageName, 0);
-            return pi != null && !pi.isStaticOverlayPackage();
-        } catch (PackageManager.NameNotFoundException e) {
-            return false;
-        }
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

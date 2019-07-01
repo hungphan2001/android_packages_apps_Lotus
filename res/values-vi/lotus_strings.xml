@@ -786,5 +786,10 @@
 	
 	<!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lối tắt màn hình khóa</string>
-
+	
+	<!--Navigation -->
+    <string name="navigation_category">Thanh điều hướng</string>
+    <string name="navigation_summary">Tùy chỉnh kiểu và hành vi của thanh điều hướng</string>
+    <string name="navbar_tuner_title">Chỉnh sửa thanh điều hướng</string>
+    <string name="navbar_tuner_summary">Chỉnh sửa bố cục và nút điều hướng</string>
 </resources>
