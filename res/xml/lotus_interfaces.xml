@@ -17,7 +17,7 @@
 		
 	<PreferenceCategory
         android:key="system_colors"
-        android:title="@string/system_colors" >
+        android:title="@string/qs_background_colors" >
 
 	<com.lotus.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_panel_bg_use_fw"
