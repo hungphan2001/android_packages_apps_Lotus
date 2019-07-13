@@ -18,6 +18,15 @@
 	<PreferenceCategory
         android:key="system_colors"
         android:title="@string/qs_background_colors" >
+	<Preference
+          android:key="omni_theme_select_activity"
+          android:title="@string/lotus_theme_select_title"
+          android:summary="@string/lotus_theme_select_summary"
+          android:persistent="false" >
+          <intent android:action="android.intent.action.MAIN"
+                  android:targetPackage="org.omnirom.omnistyle"
+                  android:targetClass="org.omnirom.omnistyle.BrowseThemesActivity" />
+     </Preference>
 
 	<com.lotus.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_panel_bg_use_fw"
